@@ -1,0 +1,27 @@
+Column,Description
+ID,LFB Incident Number
+DateOfCall,Date of 999 call
+Year,Year of 999 call
+TimeOfCall,Time of 999 call
+Hour,Hour of 999 call
+IncidentCategory,High level incident category
+IncidentType,Detailed incident category
+PropertyCategory,High level property descriptor
+PropertyType,Detailed property descriptor
+Postcode,Postcode
+Area code,Postcode Districs
+Borough,Borough Name
+Ward,Ward Name
+Latitude,Latitude
+Longitude,Longitude
+IncidentStationGround,LFB Station ground
+1stPumpResponseTime,First Pump attendance time in seconds
+1stPumpStation,First Pump deployed from station
+2ndPumpResponseTime,Second Pump attendance time in seconds
+2ndPumpStation,Second Pump deployed from station
+StationsWithPumpsAttending,Number of stations with pumps in attendance
+AttendingPumps,Number of pumps in attendance
+PumpHours,"Time spent at incident by pumps, rounded up to nearest hour"
+NotionalCost(£),PumpHours times PumpRate
+PumpRate(£),The cost of a single pump per hour.
+IncidentCost(£),The approximate true cost of an incident.
